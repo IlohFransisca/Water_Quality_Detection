@@ -1,4 +1,3 @@
-app_code = '''
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -226,4 +225,3 @@ if st.button("Predict Water Safety", type="primary"):
 
 st.markdown("---")
 st.caption("Built with Streamlit | Model: Random Forest | Dataset: Kaggle Water Potability")
-'''
