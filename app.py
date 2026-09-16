@@ -1,4 +1,3 @@
-from google.colab import files
 app_code = '''
 import streamlit as st
 import pandas as pd
