@@ -56,7 +56,7 @@ The model was trained on the **Kaggle Water Potability Dataset**, which contains
 
 ---
 
-## 🚀 App Features
+## App Features
 
 This Streamlit application goes beyond a standard machine learning prediction by incorporating a **dual-layer assessment**:
 
