@@ -74,7 +74,6 @@ st.sidebar.write("**Iloh Fransisca Onyinyechukwu**")
 st.sidebar.write("Data Scientist Enthusiast")
 st.sidebar.write(
     "I am passionate about using data to solve real-world problems, "
-    "especially in environmental science and public health. "
     "This app is a blend of my machine learning skills and my "
     "interest in making water safety information accessible to everyone."
 )
