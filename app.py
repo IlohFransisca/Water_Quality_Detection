@@ -5,17 +5,17 @@ import joblib
 from pathlib import Path
 
 # ============================================================
-# LOAD MODEL, SCALER, AND THRESHOLD
+# LOADED MODEL, SCALER, AND THRESHOLD
 # ============================================================
 
 # Get the folder where app.py is located
 BASE_DIR = Path(__file__).resolve().parent
 
-# Load saved model and scaler
+# Loaded saved model and scaler
 model = joblib.load(BASE_DIR / "water_quality_model.pkl")
 scaler = joblib.load(BASE_DIR / "scaler.pkl")
 
-# Load saved threshold
+# Loaded saved threshold
 with open(BASE_DIR / "threshold.txt", "r") as f:
     threshold = float(f.read().strip())
 
