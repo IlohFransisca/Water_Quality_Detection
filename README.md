@@ -69,17 +69,6 @@ This Streamlit application goes beyond a standard machine learning prediction by
 
 ---
 
-## Repository Structure
-
-```text
-water_quality_detection/
-├── app.py                     # Main Streamlit application code
-├── water_quality_model.pkl    # Trained Random Forest model
-├── scaler.pkl                 # Fitted StandardScaler
-├── threshold.txt              # Saved optimal threshold (0.50)
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project documentation
-
 ## How to Run Locally
 1. Clone the repository:
    git clone https://github.com/ilohfransisca/water_quality_detection.git
@@ -92,7 +81,7 @@ water_quality_detection/
    The app will automatically open at http://localhost:8501.
 
 ## Limitations & Disclaimer
-   Model Accuracy: The dataset is notoriously challenging, with published research achieving 65-70% accuracy. Our model achieves ~66% accuracy. It is designed as a screening tool, not a certified laboratory test.
+   Model Accuracy: The dataset is     notoriously challenging, with published research achieving 65-70% accuracy. Our model achieves ~66% accuracy. It is designed as a screening tool, not a certified laboratory test.
 
    Averages: EDA revealed that average values for safe and unsafe water are almost identical, making it difficult for any model to separate them perfectly.
 
@@ -102,3 +91,14 @@ water_quality_detection/
 Dataset Source: Kaggle Water Potability
 
 Built with: Streamlit, Scikit-Learn, Pandas, NumPy
+
+## Repository Structure
+
+```text
+water_quality_detection/
+├── app.py                     # Main Streamlit application code
+├── water_quality_model.pkl    # Trained Random Forest model
+├── scaler.pkl                 # Fitted StandardScaler
+├── threshold.txt              # Saved optimal threshold (0.50)
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
